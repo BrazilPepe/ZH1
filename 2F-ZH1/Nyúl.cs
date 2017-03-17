@@ -5,9 +5,9 @@ using System.Text;
 
 namespace _2F_ZH1
 {
-    public class Nyúl
+    public class Nyúl : Verseny
     {
-        public TréMedve TréMedve
+        public TréMedve Kiálltás
         {
             get
             {

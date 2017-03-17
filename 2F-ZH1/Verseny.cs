@@ -7,5 +7,7 @@ namespace _2F_ZH1
 {
     public interface Verseny
     {
+        void SzámAdás();
+        void Zsa();
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace _2F_ZH1
 {
-    public class Hóvirág
+    public class Hóvirág : Verseny
     {
     }
 }

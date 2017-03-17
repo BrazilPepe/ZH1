@@ -5,7 +5,19 @@ using System.Text;
 
 namespace _2F_ZH1
 {
-    public class TréMedve
+    public class TréMedve : Verseny
     {
+
+        public bool Kiálltás
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
     }
 }

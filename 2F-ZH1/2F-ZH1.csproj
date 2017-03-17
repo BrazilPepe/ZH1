@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bolhaú.cs" />
+    <Compile Include="Adatok.cs" />
+    <Compile Include="Bolha.cs" />
     <Compile Include="Csiga.cs" />
+    <Compile Include="Cég.cs" />
     <Compile Include="Hóvirág.cs" />
     <Compile Include="Medve.cs" />
     <Compile Include="Nyúl.cs" />
@@ -58,6 +60,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
