@@ -9,28 +9,26 @@ namespace _2F_ZH1
     {
         public Random rnd = new Random(100);
 
-       
+        public int Körök = 100;
         public int Szám;
-        public float Haladás;
-
-        public void Körök()
-        {
-            for (int i = 1; i < 100; i++) ;
-               
-
-        }
-
+        public float Lépés;
 
         public List<Versenyző> Versenyzőkk = new List<Versenyző>();
 
         public int i;
 
-        public int SzámAdás()
+        public void Adatok()
+        {
+            Console.WriteLine("Rajtszám: {0}", Szám);
+            Console.WriteLine("Sebessége: {1}", Lépés);
+        }
+
+        public void SzámAdás()
         {
 
             for (i = 1; i < 10; i++)
-                Versenyzőkk.Add(new Versenyző());
-            return i;
+               Versenyzőkk.Add(new Versenyző());
+            
         }
 
         public void Versenyzők()
@@ -44,13 +42,6 @@ namespace _2F_ZH1
             }
         }
         public bool mehete = true;
-        
-           public bool Zsa()
-        { 
-           return mehete;
-        }
-
-
-
-}
+       
+   }
 }

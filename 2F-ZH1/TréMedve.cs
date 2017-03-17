@@ -9,22 +9,11 @@ namespace _2F_ZH1
     {
         public static int LábakSzáma = 4;
 
-        public void SzamKapas(int Szam)
+        public int SzamKapas(int Szam)
         {
             this.i = Szam;
-            Console.WriteLine("Szám: ", Szam);
+            return Szam;
         }
-
-        public bool Kiálltás()
-        {
-            return true;
-        }
-
-      /*  public Sebesség()
-        {
-
-            return Haladás;
-        } */
     }
    
 }

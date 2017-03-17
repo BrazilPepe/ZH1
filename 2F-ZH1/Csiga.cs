@@ -11,9 +11,11 @@ namespace _2F_ZH1
 
         public void Ijeszto()
         {
-            Haladás = Haladás * (float)0.5;
+            Lépés = Lépés * (float)0.5;
             
         }
+
+
 
         public void SzamKapas(int Szam)
         {
@@ -21,9 +23,11 @@ namespace _2F_ZH1
             Console.WriteLine("Szám: ", Szam);
         }
 
-        /* public TréMedve Kiálltás()
-         {
+        public Csiga(int Száma, float Lepes)
+        {
+            this.Lépés = Lepes;
+            this.Szám = Száma;
 
-         } */
+        }
     }
 }

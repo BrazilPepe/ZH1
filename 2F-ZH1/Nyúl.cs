@@ -17,7 +17,7 @@ namespace _2F_ZH1
 
         public void Ijeszto()
         {
-            Haladás = Haladás * (float)1.5;
+            Lépés = Lépés * (float)1.5;
         }
 
         /*public Sebesség(Haladás)

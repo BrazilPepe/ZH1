@@ -11,12 +11,12 @@ namespace _2F_ZH1
 
         Random rns = new Random(100);
         
-        
+       
 
         public int Pihenés()
         {
-            Haladás = Haladás - rnd.Next(1, 100);
-            return (int)Haladás;
+            Lépés = Lépés - rnd.Next(1, 100);
+            return (int)Lépés;
         } 
        
         public void SzamKapas(int Szam)
