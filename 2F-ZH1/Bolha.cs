@@ -7,16 +7,8 @@ namespace _2F_ZH1
 {
     public class Bolha : Medve
     {
-        public int Szám
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
-        }
+        public int Haladás;
+       // public Medve Haladás = Bolha Haladás;
+        public int Szám = 0;
     }
 }

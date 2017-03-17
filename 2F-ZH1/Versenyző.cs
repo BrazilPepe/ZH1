@@ -5,12 +5,11 @@ using System.Text;
 
 namespace _2F_ZH1
 {
-    public class Adatok
+    public class Versenyző : Verseny
     {
-        private int Szám;
-        private int LábakSzáma;
+        private int Versenyzők;
 
-        public List<Verseny> Adat()
+        public void SzámAdás()
         {
             throw new System.NotImplementedException();
         }

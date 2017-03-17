@@ -5,8 +5,8 @@ using System.Text;
 
 namespace _2F_ZH1
 {
-    public interface Cég : Verseny
+    public interface Ijesztes
     {
-        List<Adatok> Mérés();
+        void Ijeszto();
     }
 }

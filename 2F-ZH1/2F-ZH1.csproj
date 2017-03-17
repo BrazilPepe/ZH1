@@ -43,11 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Adatok.cs" />
     <Compile Include="Bolha.cs" />
     <Compile Include="Csiga.cs" />
-    <Compile Include="Cég.cs" />
     <Compile Include="Hóvirág.cs" />
+    <Compile Include="Ijesztes.cs" />
     <Compile Include="Medve.cs" />
     <Compile Include="Nyúl.cs" />
     <Compile Include="Program.cs" />
@@ -56,6 +55,7 @@
     <Compile Include="Szöcske.cs" />
     <Compile Include="TréMedve.cs" />
     <Compile Include="Verseny.cs" />
+    <Compile Include="Versenyző.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

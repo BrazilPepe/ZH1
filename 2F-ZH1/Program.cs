@@ -10,6 +10,11 @@ namespace _2F_ZH1
     {
         static void Main(string[] args)
         {
+            Verseny v = new Verseny();
+
+
+            Console.ReadKey();
+            
         }
     }
 }

@@ -5,18 +5,25 @@ using System.Text;
 
 namespace _2F_ZH1
 {
-    public class Csiga : Verseny
+    public class Csiga : Verseny, Ijesztes
     {
-        public TréMedve Kiálltás
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
+        public static int LábakSzáma = 0;
 
-            set
-            {
-            }
+        public void Ijeszto()
+        {
+          
+            
         }
+
+        public void SzamKapas(int Szam)
+        {
+            this.i = Szam;
+            Console.WriteLine("Szám: ", Szam);
+        }
+
+        /* public TréMedve Kiálltás()
+         {
+
+         } */
     }
 }

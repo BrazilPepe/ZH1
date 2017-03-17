@@ -5,18 +5,21 @@ using System.Text;
 
 namespace _2F_ZH1
 {
-    public class Nyúl : Verseny
+    public class Nyúl : Verseny, Ijesztes
     {
-        public TréMedve Kiálltás
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
+        public static int LábakSzáma = 4;
 
-            set
-            {
-            }
+        public void SzamKapas(int Szam)
+        {
+            this.i = Szam;
+            Console.WriteLine("Szám: ", Szam);
         }
+
+        /*public Sebesség(Haladás)
+        {
+            if (kiálltás = true)
+                Haladás = Haladás * 1.5;
+            return Haladás; 
+        } */
     }
 }

@@ -7,17 +7,24 @@ namespace _2F_ZH1
 {
     public class TréMedve : Verseny
     {
+        public static int LábakSzáma = 4;
 
-        public bool Kiálltás
+        public void SzamKapas(int Szam)
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-
-            set
-            {
-            }
+            this.i = Szam;
+            Console.WriteLine("Szám: ", Szam);
         }
+
+        public bool Kiálltás()
+        {
+            return true;
+        }
+
+      /*  public Sebesség()
+        {
+
+            return Haladás;
+        } */
     }
+   
 }

@@ -1,48 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="_2F_ZH1.Bolha">
-    <Position X="6.5" Y="5.25" Width="1.5" />
+    <Position X="6.25" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAABAAAAAAAA=</HashCode>
       <FileName>Bolha.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="_2F_ZH1.Csiga">
-    <Position X="0.75" Y="4.5" Width="1.5" />
+    <Position X="0.5" Y="5.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Csiga.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Kiálltás" />
-    </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="_2F_ZH1.Hóvirág">
     <Position X="10.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAEAAAAACAAAAAAAAAAAA=</HashCode>
       <FileName>Hóvirág.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="_2F_ZH1.Medve">
-    <Position X="6.5" Y="3.75" Width="1.5" />
+    <Position X="6.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Medve.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="_2F_ZH1.Nyúl">
-    <Position X="2.75" Y="4.5" Width="1.5" />
+    <Position X="2.75" Y="5.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Nyúl.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Kiálltás" />
-    </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="_2F_ZH1.Program" Collapsed="true">
@@ -55,46 +47,43 @@
   <Class Name="_2F_ZH1.Róka">
     <Position X="8.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Róka.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="_2F_ZH1.Szöcske">
-    <Position X="4.5" Y="3.75" Width="1.5" />
+    <Position X="4" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAEAAAAAAAAAAAAgAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Szöcske.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="_2F_ZH1.TréMedve">
-    <Position X="1.5" Y="2.75" Width="1.5" />
+    <Position X="2.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAABAgAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TréMedve.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
-  <Class Name="_2F_ZH1.Adatok">
-    <Position X="3" Y="0.75" Width="1.5" />
+  <Class Name="_2F_ZH1.Verseny">
+    <Position X="8.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
-      <FileName>Adatok.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Interface Name="_2F_ZH1.Verseny">
-    <Position X="5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAEAAAAAAAgAAAAAAAAAAAACQAAAACAIQBAAAAgAAA=</HashCode>
       <FileName>Verseny.cs</FileName>
     </TypeIdentifier>
-  </Interface>
-  <Interface Name="_2F_ZH1.Cég">
-    <Position X="7.75" Y="0.5" Width="1.5" />
+  </Class>
+  <Class Name="_2F_ZH1.Versenyző">
+    <Position X="5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Cég.cs</FileName>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Versenyző.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="_2F_ZH1.Ijesztes">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ijesztes.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />
