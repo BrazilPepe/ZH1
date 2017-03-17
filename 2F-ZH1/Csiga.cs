@@ -11,7 +11,7 @@ namespace _2F_ZH1
 
         public void Ijeszto()
         {
-          
+            Haladás = Haladás * (float)0.5;
             
         }
 

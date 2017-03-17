@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bolha.cs" />
     <Compile Include="Csiga.cs" />
     <Compile Include="Hóvirág.cs" />
     <Compile Include="Ijesztes.cs" />

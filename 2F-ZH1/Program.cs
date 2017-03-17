@@ -8,13 +8,18 @@ namespace _2F_ZH1
 {
     class Program
     {
+
+      
+
         static void Main(string[] args)
         {
-            Verseny v = new Verseny();
+
+      
 
 
-            Console.ReadKey();
-            
-        }
-    }
+        Console.ReadKey();
+        }         
+  }
 }
+
+

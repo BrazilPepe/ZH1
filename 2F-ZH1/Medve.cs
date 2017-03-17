@@ -7,6 +7,9 @@ namespace _2F_ZH1
 {
     public class Medve : Verseny
     {
+        Medve Bolha = new Medve();
+        
+
         public static int LábakSzáma = 4;
 
         public void SzamKapas(int Szam)

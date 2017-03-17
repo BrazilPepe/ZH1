@@ -15,6 +15,11 @@ namespace _2F_ZH1
             Console.WriteLine("Szám: ", Szam);
         }
 
+        public void Ijeszto()
+        {
+            Haladás = Haladás * (float)1.5;
+        }
+
         /*public Sebesség(Haladás)
         {
             if (kiálltás = true)

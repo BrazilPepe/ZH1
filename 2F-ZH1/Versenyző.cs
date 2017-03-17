@@ -7,11 +7,25 @@ namespace _2F_ZH1
 {
     public class Versenyző : Verseny
     {
-        private int Versenyzők;
 
         public void SzámAdás()
         {
             throw new System.NotImplementedException();
         }
+
+        public List<Versenyző> Versenyzőkk = new List<Versenyző>();
+
+        public virtual void Listazas()
+        {
+            foreach (Versenyző v in Versenyzőkk)
+            {
+                Console.WriteLine("Versenyzők száma:", Versenyzőkk);
+            }
+        }
+
+
+
+
     }
+
 }

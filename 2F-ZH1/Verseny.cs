@@ -7,11 +7,11 @@ namespace _2F_ZH1
 {
     public class Verseny
     {
-        public Random rnd = new Random();
+        public Random rnd = new Random(100);
 
        
         public int Szám;
-        public int Haladás;
+        public float Haladás;
 
         public void Körök()
         {
@@ -21,7 +21,7 @@ namespace _2F_ZH1
         }
 
 
-        public List<Versenyző> KVersenyző = new List<Versenyző>();
+        public List<Versenyző> Versenyzőkk = new List<Versenyző>();
 
         public int i;
 
@@ -29,7 +29,7 @@ namespace _2F_ZH1
         {
 
             for (i = 1; i < 10; i++)
-                KVersenyző.Add(new Versenyző());
+                Versenyzőkk.Add(new Versenyző());
             return i;
         }
 
@@ -37,19 +37,20 @@ namespace _2F_ZH1
         {
             Console.WriteLine("Versenyzők száma: 7");
 
-            for (int i = 0; i < KVersenyző.Count; i++)
+            for (int i = 0; i < Versenyzőkk.Count; i++)
             {
                 Console.WriteLine("{0}. Versenyzők:", i);
-                KVersenyző[i].Versenyzők();
+                Versenyzőkk[i].Versenyzők();
             }
         }
-
-
-        public void Zsa()
-        {
-            throw new System.NotImplementedException();
+        public bool mehete = true;
+        
+           public bool Zsa()
+        { 
+           return mehete;
         }
 
-     
-    }
+
+
+}
 }
